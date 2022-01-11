@@ -1,0 +1,393 @@
+.paisagem {
+    display: block;
+    margin: 0px auto;
+    position: absolute;
+    height: 585px;
+    width: 1200px;
+    left: 130px;
+    top: 256px
+}
+.logopaisagem {
+        z-index: 1;
+  }
+  
+  .logopaisagem {
+    z-index: 3;
+  }
+
+.logopaisagem {
+    position: absolute;
+    width: 96px;
+    height: 91px;
+    left: 1199px;
+    top: 299px;
+}
+
+.categorias- {
+    position: absolute;
+    width: 867px;
+    height: 270px;
+    left: 130px;
+    top: 829px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 80px;
+    line-height: 169px;
+
+    color: #FFFFFF;
+}
+
+.botoes:after {
+    content: '';
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 0;
+    height: 100%;
+    background: #09B0E5;
+    z-index: -1;
+    -webkit-transition: width 200ms ease-in-out;
+    transition: width 200ms ease-in-out;
+}
+
+.botoes:hover {
+    color: #DFEBE6;
+}
+
+.botoes:hover:after {
+    width: 110%;
+}
+
+
+.botoes {
+    position: absolute;
+    width: 361px;
+    height: 55px;
+    top: 1044px;
+    display: inline-block;
+    margin: 0 0 100px 120px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 40px;
+    background-color: #1d1e1a;
+    border: 3px 3px 3px 3px;
+    border-color: #09B0E5;
+}
+
+
+.saudemental{
+    position: absolute;
+    width: 242.7px;
+    height: 272.14px;
+    left: 120px;
+    top: 1190px;
+    border-radius: 10px;
+}
+
+.saudementaltext{
+
+    position: absolute;
+    width: 242.7px;
+    height: 37px;
+    left: 120px;
+    top: 1440px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 33px;
+    line-height: 39px;
+    text-align: center;
+}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.close2 {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close2:hover,
+.close2:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.close3 {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close3:hover,
+.close3:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+.close4 {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close4:hover,
+.close4:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.close5 {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close5:hover,
+.close5:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.close6 {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close6:hover,
+.close6:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+.exercicios{
+    position: absolute;
+    width: 242.7px;
+    height: 272.14px;
+    left: 598.65px;
+    top: 1190px;
+    border-radius: 10px;
+}
+
+.exerciciostext{
+    position: absolute;
+    width: 242.7px;
+    height: 37px;
+    left: 599.17px;
+    top: 1440px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 33px;
+    line-height: 39px;
+    text-align: center
+}
+
+.alimentacao{
+    position: absolute;
+    width: 242.7px;
+    height: 272.14px;
+    left: 1077.3px;
+    top: 1190px;
+    border-radius: 10px;
+}
+
+.alimentacaotext{
+    position: absolute;
+    width: 242.7px;
+    height: 37px;
+    left: 1077.3px;
+    top: 1440px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 33px;
+    line-height: 39px;
+    text-align: center;
+}
+
+.bemestar{
+   position: absolute;
+    width: 242.7px;
+    height: 272.14px;
+    left: 120px;
+    top: 1595px;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.bemestartext{
+    position: absolute;
+    width: 242.7px;
+    height: 44px;
+    left: 120px;
+    top: 1839px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 33px;
+    line-height: 39px;
+    text-align: center;
+}
+
+.saudedosono{
+    position: absolute;
+    width: 242.7px;
+    height: 272.14px;
+    left: 598.65px;
+    top: 1595px;
+    border-radius: 10px;    
+}
+
+.saudedosonotext{
+    position: absolute;
+    width: 242.7px;
+    height: 44px;
+    left: 599.17px;
+    top: 1839px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 33px;
+    line-height: 39px;
+    text-align: center;
+}
+
+.skincare{
+    position: absolute;
+    width: 242.7px;
+    height: 272.14px;
+    left: 1077.3px;
+    top: 1595px;
+    border-radius: 10px;
+}
+
+.skincaretext{
+    position: absolute;
+    width: 242.7px;
+    height: 44px;
+    left: 1077.3px;
+    top: 1839px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 33px;
+    line-height: 39px;
+    text-align: center;
+}
+
+#divBusca{
+  background-color:#DFEBE6;
+  border:solid 2px #09B9E5;
+  border-radius:10px;
+  width:305px;
+  height:32px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.campo{
+  float:left;
+  background-color:transparent;
+  padding-left:5px;
+  font-size:18px;
+  border:none;
+  height:32px;
+  width:191px;
+}
+
+#btnBusca{
+  border:none;
+  float:left;
+  height:32px;
+  border-radius:0 7px 7px 0;
+  width:76px;
+  font-weight:bold;
+  background:#09B9E5;
+}
+
+#divBusca img{
+  float:left;
+  height:28px;
+ width: 26px;
+ padding-left:5px;
+ padding-top: 2px;
+
+}
+
+footer {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-color: #1d1e1a;
+    padding: 40px 0;
+    margin-top: 2060px;
+}
+
+.links {
+    padding: 8px 0;
+}
+
+.links img {
+    padding: 8px;
+}
+
+.copyright {
+    color: #DFEBE6;
+    font-size: 13px;
+    margin: 20px 0 0;
+}
+

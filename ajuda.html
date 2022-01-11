@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Mentalix - Ajuda</title>
+
+    <link rel="icon" href="Assets/Logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="Css/style.css">
+    <link rel="stylesheet" href="Css/ajuda.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+    </style>
+</head>
+
+<body>
+    <header>
+        <div id="navbar">
+            <img class="logo 2" alt="Logo 2" src="Assets/Logo 2.png" height="58px" width="58px">
+            <a href="index.html"><img class="home" alt="home" src="Assets/Home.png"></a>
+            <a href="Categorias.html"><img class="categorias" alt="categorias" src="Assets/Categorias.png"></a>
+            <a href="#navbar"><img class="ajuda" alt="ajuda" title="ajuda" src="Assets/Ajuda.png"></a>
+        </div>
+    </header>
+    <main>
+        <h1>FALE COM A MENTALIX</h1>
+        <p>O "Fale com a Mentalix" é uma iniciativa para tirar dúvidas e melhorar a comunicação com você. Sugestões, reclamações e comentários serão bem-vindos para o aprimoramento do nosso site.</p>
+        <form>
+            <div class="borda-formulario">
+                <div class="formulario">
+                    <label for="nome">Nome *</label>
+                    <input type="text" id="nome" required>
+
+                    <label for="email">E-mail *</label>
+                    <input type="email" id="email" required placeholder="seuemail@dominio.com">
+
+                    <label for="celular">Celular *</label>
+                    <input type="tel" id="celular" required placeholder="(XX) XXXX-XXXX">
+
+                    <label for="assunto">Assunto *</label>
+                <fieldset>
+                    <select>
+                        <option>Sugestão</option>
+                        <option>Elogio</option>
+                        <option>Dúvida</option>
+                        <option>Reclamação</option>
+                    </select>
+                </fieldset>
+                    <input type="text" id="assunto" required>
+
+                    <label for="mensagem">Mensagem *</label>
+                    <textarea cols="70" rows="10" id="mensagem" required></textarea>
+
+                <p class= "aviso">* todos os campos são obrigatórios</p>
+        </form>
+        <button class="enviar" input type="submit" onclick="clicked();"><img src= "Assets/Play.png"  height ="30" width="30">  ENVIAR</button>
+    </main>
+    <script type="text/javascript">
+ function clicked(){
+        alert("Seu formulário foi enviado!");
+}
+</script>
+    <footer>
+        <img src="Assets/Logo.png">
+        <div class="links">
+            <p>Veja nosso trabalho:</p>
+            <a href="https://github.com/becabelin/tribo-fenix">
+                <img width="45px" alt="GitHub" title="GitHub" src="Assets/GitHub.png"></a>
+            <a href="https://trello.com/b/yffyWGxS/tribo-f%C3%AAnix">
+                <img width="45px" alt="Trello" title="Trello" src="Assets/Trello.png"></a>
+            <a href="https://www.figma.com/file/brqwqnaSdLg1QYLtohYKHS/Mentalix?node-id=0%3A1">
+                <img width="45px" alt="Figma" title="Figma" src="Assets/Figma.png">
+                <a>
+        </div>
+        <p class="copyright">&copy; Copyright Mentalix - 2021</p>
+    </footer>
+</body>
+
+</html>
